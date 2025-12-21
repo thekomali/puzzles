@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /*
+Right-Angled Number Pyramid
 ======================
 1 
 1 2 

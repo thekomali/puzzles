@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /*
+Inverted Star Pyramid
 ======================
 * * * * * * * * * 
   * * * * * * * 

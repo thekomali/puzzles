@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /*
+Diamond Star Pyramid
 ======================
           * 
         * * * 
@@ -27,6 +28,7 @@ int main(int argc, char *argv[]) {
 
     printf("\n");
   }
+
 
   // LOWER HALF
   // as it's inverted triangle, start from highest and decerment it

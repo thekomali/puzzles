@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /*
+Right-Angled Triangle Pattern
 ======================
 * 
 * *

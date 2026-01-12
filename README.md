@@ -2,6 +2,7 @@
   <h1>:deciduous_tree: Puzzles :tent:</h1>
 </div>
 
+<h6>:sauropod: <a href="https://docs.google.com/spreadsheets/d/1YdC5MFhP5T_-W9iy9EnkmYKYLq07OuXMnIY2hlR-XWk/">REFERENCE</a></h6>
 
 <h6>:t-rex: A2Z SHEET | <a href="https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z"> :link: </a></h6>
 <ul start="1">

@@ -10,6 +10,8 @@ int sum_of_n(int num);
 int factorial(int num);
 int sum_of_digits(int num);
 void reverse_array(int *arr, int left, int right);
+bool is_palindrome(char *str, int left, int right);
+void base_conversion(int num, int base);
 
 
 
@@ -52,6 +54,16 @@ int main() {
 
   printf("\nreversed array entries -> ");
   for (int i = 0; i < 6; i++) printf("%d, ", arr[i]);
+  printf("\n");
+
+
+  // 08. is palindrome
+  printf("is_palindrome(\"%s\") -> %d \n", "momm", is_palindrome("momm", 0, 3));
+
+
+  // 09. Base conversion :: convert decimal number -> hex, octal or binary
+  printf("%d to base(%d) = ", 999, 16);
+  base_conversion(999, 16);
   printf("\n");
 
 
@@ -142,4 +154,40 @@ void reverse_array(int *arr, int left, int right) {
   arr[right] = tmp;
 
   reverse_array(arr, left + 1, right - 1);
+}
+
+
+
+/* --------- 08 ------------- */
+bool is_palindrome(char *str, int left, int right) {
+  // base condition -> if left becomes greater, then the string is same
+  if (left >= right)
+    return true;
+
+  // check happens are winding phase
+  if (str[left] != str[right])
+    return false;
+
+  return is_palindrome(str, left + 1, right - 1);
+}
+
+
+
+/* --------- 09 ------------- */
+// to convert a decimal to any base system, divide the decimal number with the 
+// base value until the decimal value reaches zero, then print the reminder
+// backwards
+void base_conversion(int num, int base) {
+  if (num == 0)
+    return;
+
+  int rem = num % base;
+  base_conversion(num/base, base);
+
+  // printing happens at unwinding phase
+  // as we want to print from the last reminder towards first reminder
+  if (rem > 9)
+    printf("%c", 'A' + (rem - 10));
+  else
+    printf("%d", rem);
 }

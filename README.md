@@ -8,6 +8,7 @@
 <ul start="1">
   <li><a href="./puzzles/patterns">patterns</a></li>
   <li><a href="./puzzles/basic_math">basic_math</a></li>
+  <li><a href="./puzzles/recursion">recursion</a></li>
 </ul>
 
 

@@ -9,6 +9,7 @@
 <h6>:mermaid: DSA QUEST | <a href="https://leetcode.com/quest/data-structures-and-algorithms-quest/">LINEAR SHOAL :link:</a></h6>
 <ol start="1">
   <li><a href="./puzzles/dsa_quest/linear_shoal/concatenation_of_array.c">concatenation_of_array</a> E</li>
+  <li><a href="./puzzles/dsa_quest/linear_shoal/shuffle_the_array.c">shuffle_the_array</a> E</li>
 </ol>
 
 ---

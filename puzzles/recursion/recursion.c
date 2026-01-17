@@ -14,6 +14,8 @@ bool is_palindrome(char *str, int left, int right);
 void base_conversion(int num, int base);
 void prime_factorization(int num);
 int gcd(int num1, int num2);
+void print_fibonacci_terms(int terms, int n1, int n2);
+int nth_fibonacci_term(int n);
 
 
 
@@ -79,10 +81,17 @@ int main() {
   printf("GCD of %d, %d -> %d\n", 117, 54, gcd(117, 54));
 
 
-  // 12. Fibonacci series
+  // 12. Print Fibonacci series for n terms
+  printf("Fibonacci series (%d terms) -> 1, ", 10);
+  print_fibonacci_terms(10, 1, 1);
+  printf("\n");
 
 
-  // 13. Tower of Hanoi
+  // 13. Nth Fibonacci term
+  printf("%dth fibonacci term = %d \n", 5, nth_fibonacci_term(5));
+
+
+  // 14. Tower of Hanoi
 
 
   return 0;
@@ -248,4 +257,26 @@ int gcd(int num1, int num2) {
     return num1;
   
   return gcd(num2, num1 % num2);
+}
+
+
+
+/* --------- 12 ------------- */
+void print_fibonacci_terms(int terms, int n1, int n2) {
+  if (terms == 1)
+    return;
+  
+  printf("%d, ", n1);
+
+  print_fibonacci_terms(--terms, n1 + n2, n1);
+}
+
+
+
+/* --------- 13 ------------- */
+int nth_fibonacci_term(int n) {
+  if (n == 1 || n == 0)
+    return 1;
+  
+  return nth_fibonacci_term(n - 1) + nth_fibonacci_term(n - 2);
 }

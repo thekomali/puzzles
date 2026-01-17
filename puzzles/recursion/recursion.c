@@ -12,11 +12,13 @@ int sum_of_digits(int num);
 void reverse_array(int *arr, int left, int right);
 bool is_palindrome(char *str, int left, int right);
 void base_conversion(int num, int base);
+void prime_factorization(int num);
+int gcd(int num1, int num2);
 
 
 
 
-
+// EVERYTHING STARTS HERE
 int main() {
   // 01. Print n times using recursion
   print("Lakshadweep Kuttan", 5);
@@ -65,6 +67,22 @@ int main() {
   printf("%d to base(%d) = ", 999, 16);
   base_conversion(999, 16);
   printf("\n");
+
+
+  // 10. Prime factorization
+  printf("prime factors of %d => ", 84);
+  prime_factorization(84);
+  printf("\n");
+
+
+  // 11. Greatest common divisor
+  printf("GCD of %d, %d -> %d\n", 117, 54, gcd(117, 54));
+
+
+  // 12. Fibonacci series
+
+
+  // 13. Tower of Hanoi
 
 
   return 0;
@@ -190,4 +208,44 @@ void base_conversion(int num, int base) {
     printf("%c", 'A' + (rem - 10));
   else
     printf("%d", rem);
+}
+
+
+
+/* --------- 10 ------------- */
+// find prime factors of - 84
+// 84 % 2 == 0, num = 84/2 :: factor = 2
+// 42 % 2 == 0, num = 42/2 :: factor = 2
+// 21 % 2 != 0
+// 21 % 3 == 0, num = 21/3 :: factor = 3
+// 7 % 2 != 0
+// 7 % 3 != 0
+// 7 % 7 == 0, num = 7/7  :: factor = 7
+// num == 1 <--- base condition reached, end of recursion
+void prime_factorization(int num) {
+  if (num == 1)
+    return;
+  
+  // let's start with the first prime number
+  int factor = 2;
+
+  // loop until found the factor that divides the num
+  while (num % factor != 0)
+    factor++;
+ 
+  printf("%d, ", factor);
+  
+  // on finding the factor, the problem reduces by reducing the num
+  prime_factorization(num / factor);
+}
+
+
+
+/* --------- 11 ------------- */
+// Euclid's Remainder Algorithm
+int gcd(int num1, int num2) {
+  if (num2 == 0)
+    return num1;
+  
+  return gcd(num2, num1 % num2);
 }

@@ -11,8 +11,8 @@
   <li><a href="./puzzles/dsa_quest/linear_shoal/concatenation_of_array.c">concatenation_of_array</a> E</li>
   <li><a href="./puzzles/dsa_quest/linear_shoal/shuffle_the_array.c">shuffle_the_array</a> E</li>
   <li><a href="./puzzles/dsa_quest/linear_shoal/max_consecutive_ones.c">max_consecutive_ones</a> E</li>
-  <li><a href="./puzzles/dsa_quest/linear_shoal/numbers_smaller_than_current_num.c">numbers_smaller_than_current_number</a> E</li>
-  <li><a href="./puzzles/dsa_quest/find_all_numbers_disappeared_in_array.c">find_all_the_numbers_disappeared_in_the_array</a> E</li>
+  <li><a href="./puzzles/dsa_quest/linear_shoal/numbers_smaller_than_current_num.c">numbers smaller than current number</a> E</li>
+  <li><a href="./puzzles/dsa_quest/find_all_numbers_disappeared_in_array.c">find all the numbers disappeared in the array</a> E</li>
 </ol>
 
 ---
@@ -20,8 +20,13 @@
 <h6>:t-rex: A2Z SHEET | <a href="https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z">:link:</a></h6>
 <ul start="1">
   <li><a href="./puzzles/patterns">patterns</a></li>
-  <li><a href="./puzzles/basic_math">basic_math</a></li>
+  <li><a href="./puzzles/basic_math">basic math</a></li>
   <li><a href="./puzzles/recursion">recursion</a></li>
+  
+  <li><a href="./puzzles/array">array</a></li>
+  <ol start="1">
+    <li><a href="./puzzles/array/find_second_smallest_nd_largest.c">find second smallest and largest</a> E</li>
+  </ol>
 </ul>
 
 

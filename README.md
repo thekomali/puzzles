@@ -12,6 +12,7 @@
   <li><a href="./puzzles/dsa_quest/linear_shoal/shuffle_the_array.c">shuffle_the_array</a> E</li>
   <li><a href="./puzzles/dsa_quest/linear_shoal/max_consecutive_ones.c">max_consecutive_ones</a> E</li>
   <li><a href="./puzzles/dsa_quest/linear_shoal/numbers_smaller_than_current_num.c">numbers_smaller_than_current_number</a> E</li>
+  <li><a href="./puzzles/dsa_quest/find_all_numbers_disappeared_in_array.c">find_all_the_numbers_disappeared_in_the_array</a> E</li>
 </ol>
 
 ---

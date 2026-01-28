@@ -27,6 +27,7 @@
   <ol start="1">
     <li><a href="./puzzles/array/find_second_smallest_nd_largest.c">find second smallest and largest</a> E</li>
     <li><a href="./puzzles/array/array_sorted_nd_rotated.c">check if the array is sorted and rotated</a> E</li>
+    <li><a href="./puzzles/array/find_duplicates_from_sorted_array.c">find duplicates from the sorted array</a> E</li>
   </ol>
 </ul>
 

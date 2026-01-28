@@ -13,6 +13,7 @@
   <li><a href="./puzzles/dsa_quest/linear_shoal/max_consecutive_ones.c">max_consecutive_ones</a> E</li>
   <li><a href="./puzzles/dsa_quest/linear_shoal/numbers_smaller_than_current_num.c">numbers smaller than current number</a> E</li>
   <li><a href="./puzzles/dsa_quest/find_all_numbers_disappeared_in_array.c">find all the numbers disappeared in the array</a> E</li>
+  <li><a href="./puzzles/dsa_quest/set_mismatch.c">set mismatch</a> E</li>
 </ol>
 
 ---

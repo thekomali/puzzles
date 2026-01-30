@@ -31,6 +31,7 @@
     <li><a href="./puzzles/array/find_duplicates_from_sorted_array.c">find duplicates from the sorted array</a> E</li>
     <li><a href="./puzzles/array/rotate_array.c">rotate array</a> M</li>
     <li><a href="./puzzles/array/move_zeros.c">move zeros</a> E</li>
+    <li><a href="./puzzles/array/merge_sorted_array.c">merge sorted array</a> E</li>
   </ol>
 </ul>
 

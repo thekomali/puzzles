@@ -35,7 +35,8 @@
     <li><a href="./puzzles/array/move_zeros.c">move zeros</a> E</li>
     <li><a href="./puzzles/array/merge_sorted_array.c">merge sorted array</a> E</li>
     <li><a href="./puzzles/array/single_number.c">single missing number</a> E</li>
-    <li><a href="./puzzles/array/subarray_sum_equals_k.py">subarray sum equals k</a> M :snake:</li>
+    <li><a href="./puzzles/array/subarray_sum_equals_k.py">subarray sum equals k</a> :snake: M</li>
+    <li><a href="./puzzles/array/two_sum.py">two sum</a> :snake: E</li>
   </ol>
 </ul>
 

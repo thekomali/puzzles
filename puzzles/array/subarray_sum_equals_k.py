@@ -1,7 +1,7 @@
-// problem -> https://leetcode.com/problems/subarray-sum-equals-k/description/
+# problem -> https://leetcode.com/problems/subarray-sum-equals-k/description/
 
-// time complexity - O(N)
-// space complexity - O(N)
+# time complexity - O(N)
+# space complexity - O(N)
 
 class Solution:
   def subarraySum(self, nums: List[int], k: int) -> int:
